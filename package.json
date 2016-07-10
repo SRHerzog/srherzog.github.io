@@ -1,0 +1,13 @@
+{
+  "name": "sherzog.github.io",
+  "version": "0.1.0",
+  "author": "Steve Herzog",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-concat": "^0.1.6",
+    "grunt-contrib-compass": "~0.6.0",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
