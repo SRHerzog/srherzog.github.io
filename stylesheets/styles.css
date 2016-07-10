@@ -1,8 +1,7 @@
 @font-face {
   font-family: 'Fabrica';
-  src: url('fonts/Fabrica.otf');    
+  src: url('fonts/Fabrica.otf'); 
 }
-
 body {
   background-color: #fff;
   padding:50px;
@@ -47,13 +46,6 @@ iframe {
         -webkit-transform: scale(0.95);
         -webkit-transform-origin: 0 0;
 }
-
-footer {
-  width:270px;
-  float:left;
-  -webkit-font-smoothing:subpixel-antialiased;
-}
-
  .xs {
   width:660px;
   -ms-zoom: 0.60;
