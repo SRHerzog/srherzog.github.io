@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'Fabrica','Arial',sans-serif;
+  src: url('fonts/Fabrica.otf'); 
+}
+body {
+  font-family: 'Fabrica','Arial',sans-serif;
+  background-color: #FFF;
+  color:#000;
+}
+header {
+  position:relative;
+  top:-20px;
+}
+#layout {
+  display:flex;
+}
+.sample {
+  max-width:100%;
+}
+#markdown {
+  border:1px solid black;
+}
+a{
+  color:#FF0000;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+a:active {
+  text-decoration:underline;
+}
+a:visited {
+  text-decoration:underline;
+}
+.container{
+  max-width:300px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+  position:relative;
+  margin-top:10px;
+}
+@media (min-width: 768px) {
+  #logo{
+    width:400px;
+    height:auto;
+  }
+  body {
+    font:1em;
+    padding:50px;
+    
+  }
+  body, div {
+    transition:all .2s linear; 
+    -o-transition:all .2s linear; 
+    -moz-transition:all .2s linear; 
+    -webkit-transition:all .2s linear;
+  }
+  header {
+    padding-left:30px;
+  }
+  #portfolio{
+    border-top:2px solid #FF0000;
+    position:relative;
+    top:-30px;
+    padding:10px;
+    -webkit-columns: 2 320px;
+    -moz-columns: 2 320px;
+    columns: 2 320px;
+    width:100%;
+  }
+  #text {
+    width:400px;
+    flex-shrink:0;
+    padding:0px 30px 30px 30px;
+    font-family: 'Fabrica';
+  }
+  #bio{
+    margin-top:30px;
+  }
+}
+@media (max-width: 767px) {
+  #logo{
+    position:relative;
+    width:320px;
+    height:auto;
+    margin:auto;
+  }
+  #layout {
+    flex-wrap:wrap;
+    padding-right:0px;
+  }
+  body {
+    font-size:.8em;
+  }
+  body, div {
+    transition:all .2s linear; 
+    -o-transition:all .2s linear; 
+    -moz-transition:all .2s linear; 
+    -webkit-transition:all .2s linear;
+  }
+  header {
+    margin:auto;
+    width:100%;
+    padding-top:30px;
+    padding-left:5%;
+    padding-right:10%;
+  }
+  #portfolio{
+    border-top:2px solid #FF0000;
+    position:relative;
+    left:25px;
+    margin:auto;
+    padding:0px;
+    -webkit-columns: 1 320px;
+    -moz-columns: 1 320px;
+    columns: 1 320px;
+    width:320px;
+  }
+  #text {
+    width:100%;
+    flex-shrink:0;
+    padding:0px 30px 30px 30px;
+    font-family: 'Fabrica';
+  }
+  #bio{
+    margin-top:30px;
+  }
+}
+
+
+
+
+
+
+
+
+
