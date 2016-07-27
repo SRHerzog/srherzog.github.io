@@ -102,10 +102,9 @@ a:visited {
   }
   header {
     margin:auto;
-    width:100%;
+    width:320px;
     padding-top:30px;
-    padding-left:5%;
-    padding-right:10%;
+    padding-left:10px;
   }
   #portfolio{
     border-top:2px solid #FF0000;
@@ -119,6 +118,8 @@ a:visited {
     width:320px;
   }
   #text {
+    position:relative;
+    top:-15px;
     width:100%;
     flex-shrink:0;
     padding:0px 30px 30px 30px;
